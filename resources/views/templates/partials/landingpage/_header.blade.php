@@ -8,7 +8,7 @@
                     <div class="menu-left">
 
                         <div class="brand-logo">
-                            <a href="/"><img src="{{asset ('assets-landingpage/images/wartegku.png') }}" alt="" width="160" height="100"
+                            <a href="/"><img src="{{asset ('assets-landingpage/images/booking.jpg') }}" alt="" width="160" height="100"
                                                       class="img-fluid blur-up lazyload"></a>
                         </div>
                     </div>

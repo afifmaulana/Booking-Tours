@@ -1,6 +1,6 @@
 <div class="page-sidebar">
     <div class="main-header-left d-none d-lg-block">
-        <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="{{asset ('assets/images/dashboard/wartegku.png') }}" alt="" width="200" height="60"></a></div>
+        <div class="logo-wrapper"><a href="index.html"><img class="blur-up lazyloaded" src="{{asset ('assets/images/dashboard/booking.jpg') }}" alt="" width="200" height="60"></a></div>
     </div>
     <div class="sidebar custom-scrollbar">
         <div class="sidebar-user text-center">
@@ -10,10 +10,10 @@
             <p>general manager.</p>
         </div>
         <ul class="sidebar-menu">
-            <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
-            <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Makanan</span></a></li>
-        <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Pesanan</span></a></li>
-
+            <li><a class="sidebar-header" href="{{ route('dashboard.admin') }}"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
+            <li><a class="sidebar-header" href="#"><i class="fa fa-users"></i><span>Client</span></a></li>
+            <li><a class="sidebar-header" href="#"><i class="fa fa-university"></i><span>Wisata</span></a></li>
+            <li><a class="sidebar-header" href="#"><i class="fa fa-university"></i><span>Order</span></a></li>
         </ul>
     </div>
 </div>
