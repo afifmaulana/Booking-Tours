@@ -30,8 +30,12 @@ Route::post('/admin/login', 'Admin\Auth\LoginController@login')->name('admin.log
 Route::get('/admin/logout', 'Admin\Auth\LoginController@logout')->name('admin.logout');
 
 
-
-Route::get('/admin/dashboard','Admin\DashboardController@index')->name('dashboard.admin');
+Route::group(['prefix' => 'admin'], function (){
+Route::get('dashboard','Admin\DashboardController@index')->name('dashboard.admin');
+Route::get('client', 'Admin\ClientController@index')->name('admin.client.index');
+Route::get('client/{id}', 'Admin\ClientController@destroy')->name('admin.client.destroy');
+Route::get('wisata', 'Admin\WisataController@index')->name('admin.wisata.index');
+});
 
 Route::get('/client/dashboard','Client\DashboardController@index')->name('dashboard.client');
 

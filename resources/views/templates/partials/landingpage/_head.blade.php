@@ -7,7 +7,7 @@
     <meta name="author" content="WartegKu">
     <link rel="icon" href="{{ asset ('assets-landingpage/images/favicon.png') }}" type="image/x-icon">
     <link rel="shortcut icon" href="{{ asset ('assets-landingpage/images/favicon.png') }}" type="image/x-icon">
-    <title>WartegKu-Ayo Jalin Hubungan Denganku</title>
+    <title>Booking Tours</title>
 
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">

@@ -11,8 +11,8 @@
         </div>
         <ul class="sidebar-menu">
             <li><a class="sidebar-header" href="{{ route('dashboard.admin') }}"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
-            <li><a class="sidebar-header" href="#"><i class="fa fa-users"></i><span>Client</span></a></li>
-            <li><a class="sidebar-header" href="#"><i class="fa fa-university"></i><span>Wisata</span></a></li>
+            <li><a class="sidebar-header" href="{{ route('admin.client.index') }}"><i class="fa fa-users"></i><span>Client</span></a></li>
+            <li><a class="sidebar-header" href="{{ route('admin.wisata.index') }}"><i class="fa fa-university"></i><span>Wisata</span></a></li>
             <li><a class="sidebar-header" href="#"><i class="fa fa-university"></i><span>Order</span></a></li>
         </ul>
     </div>
