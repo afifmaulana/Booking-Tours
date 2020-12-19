@@ -14,12 +14,12 @@
                 <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize-2"></i></a></li>
 
                 <li class="onhover-dropdown">
-                    <div class="media align-items-center"><img class="align-self-center pull-right img-50 rounded-circle blur-up lazyloaded" src="{{Auth::guard('store')->user()->logo}}" alt="header-user">
+                    <div class="media align-items-center"><img class="align-self-center pull-right img-50 rounded-circle blur-up lazyloaded" src="#" alt="header-user">
                         <div class="dotted-animation"><span class="animate-circle"></span><span class="main-circle"></span></div>
                     </div>
                     <ul class="profile-dropdown onhover-show-div p-20 profile-dropdown-hover">
-                        <li><a href="{{route('profile.index')}}"><i data-feather="user"></i>Edit Profile</a></li>
-                        <li><a href="{{route('store.logout')}}"><i data-feather="log-out"></i>Logout</a></li>
+                        <li><a href="#"><i data-feather="user"></i>Edit Profile</a></li>
+                        <li><a href="{{ route('admin.logout') }}"><i data-feather="log-out"></i>Logout</a></li>
                     </ul>
                 </li>
             </ul>

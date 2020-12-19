@@ -41,7 +41,7 @@ class LoginController extends Controller
 
     public function showLoginForm()
     {
-        return view('auth.login');
+        return view('auth_admin.login');
     }
 
     public function login(Request $request)
@@ -65,7 +65,7 @@ class LoginController extends Controller
 
 
         if (Auth::guard('admin')->attempt($credential, $request->remember)) {
-            return redirect()->intended(route('dashboard.client'));
+            return redirect()->intended(route('dashboard.admin'));
         }
 
         return redirect()->back()->withInput($request->only('email', 'remember'));
@@ -73,7 +73,7 @@ class LoginController extends Controller
 
     public function logout()
     {
-        Auth::guard('client')->logout();
-        return redirect()->route('client.login');
+        Auth::guard('admin')->logout();
+        return redirect()->route('admin.login');
     }
 }

@@ -4,15 +4,15 @@
     </div>
     <div class="sidebar custom-scrollbar">
         <div class="sidebar-user text-center">
-            <div><img class="img-60 rounded-circle lazyloaded blur-up" src="{{Auth::guard('store')->user()->logo}}" alt="#">
+            <div><img class="img-60 rounded-circle lazyloaded blur-up" src="#" alt="#">
             </div>
             <h6 class="mt-3 f-14">JOHN</h6>
             <p>general manager.</p>
         </div>
         <ul class="sidebar-menu">
-            <li><a class="sidebar-header" href="index.html"><i data-feather="home"></i><span>Dashboard</span></a></li>
-            <li><a class="sidebar-header" href="{{route('food.index')}}"><i data-feather="box"></i><span>Makanan</span></a></li>
-        <li><a class="sidebar-header" href="{{route('order.index')}}"><i data-feather="box"></i><span>Pesanan</span></a></li>
+            <li><a class="sidebar-header" href="#"><i data-feather="home"></i><span>Dashboard</span></a></li>
+            <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Makanan</span></a></li>
+        <li><a class="sidebar-header" href="#"><i data-feather="box"></i><span>Pesanan</span></a></li>
 
         </ul>
     </div>

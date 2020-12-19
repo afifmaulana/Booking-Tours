@@ -1,7 +1,7 @@
 <section class="p-0">
     <div class="slide-1 home-slider">
         <div>
-            <div class="home  text-center">
+            <div class="home text-center">
                 <img src="{{ asset ('assets-landingpage/images/home-banner/slide3.png') }}" alt="" class="bg-img blur-up lazyload">
                 <div class="container">
                     <div class="row">
